@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+:root {
+    --primary-gray: #232323;
+    --primary-red: #9F0720;
+    --primary-blue: #1B84D8;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    background-color: #BDE5FF;
+}
+
+input,
+button {
+    font-family: 'VT323', monospace;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dfdfdf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
